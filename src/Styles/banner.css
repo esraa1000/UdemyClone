@@ -1,0 +1,40 @@
+.top-banner {
+  width: 100%;
+  background-color: #C2E9EB;   
+  padding: 14px 0;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+  color: #1c1d1f;
+  font-family: "Arial", sans-serif;
+  border-bottom: 1px solid #ccc;
+
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;  
+  z-index: 1000;
+  margin: 0;
+}
+
+.top-banner p {
+  margin: 0;
+}
+
+.close-btn {
+  position: relative;
+  top: 50%;
+  left: 27%;
+  width: 30px;
+  padding: 5px;
+  font-size: 20px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: #1c1d1f;
+}
+
+.close-btn:hover {
+  background-color: #d7eff2;
+}

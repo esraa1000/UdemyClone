@@ -1,0 +1,51 @@
+/* RESET + BASE STYLES */
+:root {
+  font-family: "Udemy Sans", Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+
+  color: #2d2f31;
+  background-color: #ffffff;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Remove default browser spacing */
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+/* Let page grow naturally — no centering, no flex */
+body {
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+/* Default link styling */
+a {
+  font-weight: 500;
+  color: inherit;
+  text-decoration: none;
+}
+
+/* Buttons default reset */
+button {
+  font-family: inherit;
+  cursor: pointer;
+  border: none;
+  background: none;
+}
+
+/* Light mode adjustments */
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #2d2f31;
+    background-color: #ffffff;
+  }
+}

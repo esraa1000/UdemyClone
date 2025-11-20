@@ -1,0 +1,120 @@
+.ai-section-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 50px 0;
+  background-color: #fff;
+}
+
+.ai-section-container {
+  width: 80%; 
+  background: #222433;
+  padding: 50px 60px;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 28px;
+  color: #fff;
+  gap: 40px;
+}
+
+.ai-left {
+  width: 50%;
+}
+
+.ai-left h1 {
+  font-size: 2.2rem;
+  line-height: 2.2rem;
+  margin-bottom: 18px;
+  font-weight: 700;
+}
+
+.subtext {
+  font-size: 1.05rem;
+  color: #d0d0d0;
+  line-height: 1.6;
+  margin-bottom: 26px;
+}
+
+.ai-features {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 28px 0;
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  column-gap: 28px;
+  row-gap: 16px;
+}
+
+.ai-features li {
+  display: flex;
+  align-items: center;
+  font-size: 1.08rem;
+  gap: 8px;
+}
+
+.icon {
+  font-size: 1.35rem;
+}
+
+.learn-btn {
+  padding: 12px 60px;
+  border: none;
+  border-radius: 6px;
+  background: #fff;
+  color: #1c1d2a;
+  font-size: 0.95rem;
+  font-weight: 600;
+  cursor: pointer;
+  margin: 8px 0 10px;
+}
+
+.price-text {
+  font-size: 0.9rem;
+  color: #d0d0d0;
+}
+
+/* RIGHT SIDE */
+.ai-right {
+  width: 50%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+/* Single large image (your version) */
+.card-image {
+  width: 100%;    /* closer to Udemy */
+  height: 420px;
+  border-radius: 18px;
+  overflow: hidden;
+  background: #222433;
+}
+
+.card-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* RESPONSIVE */
+@media (max-width: 900px) {
+  .ai-section-container {
+    flex-direction: column;
+    width: 90%;
+    padding: 40px;
+    text-align: center;
+  }
+
+  .ai-left {
+    width: 100%;
+    max-width: none;
+  }
+
+  .ai-right {
+    justify-content: center;
+    width: 100%;
+  }
+
+  .ai-features {
+    grid-template-columns: 1fr 1fr;
+  }
+}

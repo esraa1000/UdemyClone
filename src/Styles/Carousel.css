@@ -1,0 +1,57 @@
+/* ===== Carousel Wrapper ===== */
+.carousel-wrapper {
+  width: 100%;
+  padding: 40px 70px;
+  background: #ffffff;
+  box-sizing: border-box;
+  border: 1px solid #e0e0e0;
+  border-radius: 12px;
+  margin: 50px;
+}
+
+/* ===== Main Title ===== */
+.carousel-wrapper .main-title {
+  font-size: 2.4rem;
+  font-weight: 700;
+  margin-bottom: 10px;
+  line-height: 1.2;
+}
+
+/* ===== Subtitle ===== */
+.carousel-wrapper .subtitle {
+  font-size: 1.1rem;
+  color: #6a6a6a;
+  margin-bottom: 28px;
+  max-width: 750px;
+  line-height: 1.4;
+}
+
+/* ===== Tabs Section ===== */
+.tabs {
+  display: flex;
+  gap: 28px;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 10px;
+  margin-bottom: 25px;
+}
+
+/* Each tab */
+.tabs span {
+  font-size: 1rem;
+  color: #6a6a6a;
+  cursor: pointer;
+  padding-bottom: 6px;
+  transition: color 0.2s ease, border-bottom 0.2s ease;
+}
+
+/* Hover */
+.tabs span:hover {
+  color: #000;
+}
+
+/* Active state */
+.tabs span.active {
+  color: #000;
+  font-weight: 600;
+  border-bottom: 2px solid #000;
+}
